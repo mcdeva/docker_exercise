@@ -1,0 +1,53 @@
+# FROM debian:stable-slim
+
+# # install git
+# RUN apt-get update
+# RUN apt-get install -y git
+
+# # install node and python
+# RUN apt-get update
+# RUN apt-get install -y curl
+# RUN curl -sL https://deb.nodesource.com/setup_18.x | bash -
+# RUN apt-get install -y nodejs
+# RUN npx --yes playwright install-deps
+# RUN apt-get install -y python3-pip
+
+# # install library
+# ADD requirements.txt requirements.txt
+# RUN pip3 install -r requirements.txt
+# RUN rfbrowser init
+# RUN rm requirements.txt
+
+# # install jenkins
+# RUN curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+# RUN echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+# RUN apt-get update
+# RUN apt-get install -y fontconfig openjdk-11-jre
+# RUN apt-get install -y jenkins
+
+# CMD [ "jenkins" ]
+
+FROM debian:stable-slim
+
+LABEL robotframework-browser="5.0.1"
+
+# install required packages (curl, jdk, git, python, fontconfig, nodejs)
+RUN apt-get update && \
+    apt-get install -y git curl python3-pip openjdk-11-jre fontconfig && \
+    curl -sL https://deb.nodesource.com/setup_18.x | bash - && \
+    apt-get install -y nodejs && \
+    npx --yes playwright install-deps
+
+# install python library
+ADD requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt && \
+    rfbrowser init && \
+    rm requirements.txt
+
+# install jenkins
+RUN curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null && \
+    echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | tee /etc/apt/sources.list.d/jenkins.list > /dev/null && \
+    apt-get update && \
+    apt-get install -y jenkins
+
+CMD [ "jenkins" ]

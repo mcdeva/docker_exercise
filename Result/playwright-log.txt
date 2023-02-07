@@ -1,0 +1,44 @@
+{"level":30,"time":"2023-02-02T03:36:04.579Z","pid":654,"hostname":"c2406e5604b0","msg":"Listening on 34169"}
+{"level":30,"time":"2023-02-02T03:36:04.641Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:04.642Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:04.648Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:04.648Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:04.656Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-02-02T03:36:04.922Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-02-02T03:36:04.929Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-02-02T03:36:04.935Z","pid":654,"hostname":"c2406e5604b0","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-02-02T03:36:04.937Z","pid":654,"hostname":"c2406e5604b0","msg":"Trace file: "}
+{"level":30,"time":"2023-02-02T03:36:04.977Z","pid":654,"hostname":"c2406e5604b0","msg":"Changed active context"}
+{"level":30,"time":"2023-02-02T03:36:04.980Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method newContext"}
+{"level":30,"time":"2023-02-02T03:36:04.987Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-02-02T03:36:04.988Z","pid":654,"hostname":"c2406e5604b0","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-02-02T03:36:05.049Z","pid":654,"hostname":"c2406e5604b0","msg":"Video path: undefined"}
+{"level":30,"time":"2023-02-02T03:36:05.050Z","pid":654,"hostname":"c2406e5604b0","msg":"Changed active page"}
+{"level":30,"time":"2023-02-02T03:36:06.935Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method newPage"}
+{"level":30,"time":"2023-02-02T03:36:06.954Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-02-02T03:36:07.150Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-02-02T03:36:07.156Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:07.162Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:07.166Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:07.175Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:07.182Z","pid":654,"hostname":"c2406e5604b0","msg":"Changed active context"}
+{"level":30,"time":"2023-02-02T03:36:07.183Z","pid":654,"hostname":"c2406e5604b0","msg":"Changing current active page"}
+{"level":30,"time":"2023-02-02T03:36:07.184Z","pid":654,"hostname":"c2406e5604b0","msg":"Changed active page"}
+{"level":30,"time":"2023-02-02T03:36:07.194Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:07.197Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:07.201Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-02-02T03:36:07.201Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-02-02T03:36:07.204Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-02-02T03:36:07.205Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-02-02T03:36:07.210Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:07.213Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:07.216Z","pid":654,"hostname":"c2406e5604b0","msg":"Changed active context"}
+{"level":30,"time":"2023-02-02T03:36:07.216Z","pid":654,"hostname":"c2406e5604b0","msg":"Changing current active page"}
+{"level":30,"time":"2023-02-02T03:36:07.217Z","pid":654,"hostname":"c2406e5604b0","msg":"Changed active page"}
+{"level":30,"time":"2023-02-02T03:36:07.221Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-02-02T03:36:07.228Z","pid":654,"hostname":"c2406e5604b0","msg":"Removed page=47c7b272-d340-4e04-a12e-1d96b421933e from context=9a275b52-bae1-4f07-b788-92b230f2a39d page stack"}
+{"level":30,"time":"2023-02-02T03:36:07.242Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-02-02T03:36:07.248Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:07.249Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-02-02T03:36:07.319Z","pid":654,"hostname":"c2406e5604b0","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-02-02T03:36:07.397Z","pid":654,"hostname":"c2406e5604b0","msg":"End of node method closeAllBrowsers"}
