@@ -10,9 +10,9 @@ RUN npx --yes playwright install-deps
 
 # install python library
 ADD requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt && \
-    rfbrowser init && \
-    rm requirements.txt
+RUN pip3 install -r requirements.txt
+RUN rfbrowser init
+RUN rm requirements.txt
 
 # install jenkins
 RUN curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
