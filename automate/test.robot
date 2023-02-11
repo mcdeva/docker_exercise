@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation    Test
-Library    AppiumLibrary
 Library    OperatingSystem
+Library    AppiumLibrary
 
 
 *** Variables ***
