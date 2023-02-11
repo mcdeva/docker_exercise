@@ -5,7 +5,7 @@ Library    OperatingSystem
 
 
 *** Variables ***
-&{CAPACIBILITY}    url=http://192.168.1.118:4723/wd/hub
+&{CAPACIBILITY}    url=http://localhost:4723/wd/hub
 ...    platformName=Android
 ...    platformVersion=11
 ...    deviceName=emulator-5554
