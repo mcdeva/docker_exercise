@@ -6,6 +6,6 @@ Library    Browser    timeout=30s
 *** Test Cases ***
 Test_1_001
     [Documentation]    Docker Test
-    Open Browser    https://google.co.th    headless=${True}
+    Open Browser    https://twitter.com    headless=${True}
     # Open Browser    https://google.com
     Take Screenshot
