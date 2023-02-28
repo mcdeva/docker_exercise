@@ -5,7 +5,7 @@ Library    AppiumLibrary
 
 
 *** Variables ***
-&{CAPACIBILITY}    url=http://localhost:4723/wd/hub
+&{CAPACIBILITY}    url=http://172.27.149.216:4723/wd/hub
 ...    platformName=Android
 ...    platformVersion=11
 ...    deviceName=emulator-5554
@@ -29,3 +29,4 @@ Test_1_001
     ...    appPackage=${CAPACIBILITY}[appPackage]
     ...    appActivity=${CAPACIBILITY}[appActivity]
     ...    noReset=${True}
+    Close All Applications
