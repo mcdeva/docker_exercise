@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Pull Code') {
+            steps {
+                checkout scmGit(branches: [[name: '*/master']], extensions: [cleanBeforeCheckout(), [$class: 'RelativeTargetDirectory', relativeTargetDir: '/automate']], userRemoteConfigs: [[credentialsId: '4e956d49-ee74-4911-85bf-df9ff875f12f', url: 'https://git.matador.ais.co.th/ate-vdo/ais-playbox.git']])
+            }
+        }
+        stage('Execute Test') {
+            steps {
+                sh 'robot -d "/Result" --nostatusrc --dryrun /automate/TestSuite'
+            }
+        }
+    }
+}
