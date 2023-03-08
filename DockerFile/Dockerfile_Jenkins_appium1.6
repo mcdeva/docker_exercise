@@ -8,7 +8,6 @@ RUN apt-get update && \
     apt-get install -y curl git python3-pip imagemagick openjdk-11-jre fontconfig
 
 # install python library
-# ADD requirements.txt requirements.txt
 RUN pip3 install robotframework==5.0 robotframework-appiumlibrary==1.6
 
 # install jenkins
