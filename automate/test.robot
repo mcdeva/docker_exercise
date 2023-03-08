@@ -5,7 +5,7 @@ Library    AppiumLibrary
 
 
 *** Variables ***
-&{CAPACIBILITY}    url=http://172.27.149.216:4723/wd/hub
+&{CAPACIBILITY}    url=http://localhost:4723/wd/hub
 ...    platformName=Android
 ...    platformVersion=11
 ...    deviceName=emulator-5554
