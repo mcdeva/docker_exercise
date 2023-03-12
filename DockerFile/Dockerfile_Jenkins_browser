@@ -12,6 +12,8 @@ RUN npx --yes playwright install-deps
 ADD requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 RUN rfbrowser init
+
+# remove requirements.txt file from docker
 RUN rm requirements.txt
 
 # install jenkins
