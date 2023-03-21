@@ -40,5 +40,3 @@ styleframe==4.1
 tomli==2.0.1
 tomlkit==0.11.6
 tqdm==4.64.1
-typing_extensions==4.3.0
-wrapt==1.14.1
